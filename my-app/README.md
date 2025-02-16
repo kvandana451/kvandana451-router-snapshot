@@ -1,6 +1,8 @@
 # MyApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. but used Angular 16 for development....
+
+NOTE:Angular route definitions should not have a leading slash (/). The router automatically manages that when matching URLs.
 
 ## Development server
 
