@@ -2,7 +2,15 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. but used Angular 16 for development....
 
-NOTE:Angular route definitions should not have a leading slash (/). The router automatically manages that when matching URLs.
+NOTE:Angular route definitions should not have a leading slash (/). The router automatically manages that when matching URLs. <br>
+
+Angular's ActivatedRoute.snapshot
+It's a snapshot of the route state at the time the component is initialized.<br>
+Internally, it’s an object that captures:
+
+paramMap, queryParamMap, data, url, etc.
+
+It won’t update automatically if the route changes while the component stays alive.
 
 ## Development server
 
